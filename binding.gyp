@@ -40,6 +40,9 @@
           ],
         }],
         ['OS=="linux"', {
+          'cflags_cc': [
+             '-std=c++11'
+          ],
           'sources': [
              'src/spellchecker_linux.cc'
           ],
